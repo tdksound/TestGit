@@ -1,0 +1,37 @@
+.game-grid {
+    -fx-background-color: blue;
+    -fx-padding: 0;
+}
+.game-grid-cell {
+    -fx-background-color: #ccc, #fff;
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+.game-grid-cell.first-row {
+    -fx-background-insets: 0, 1 1 1 0 ;
+}
+.game-grid-cell.first-column {
+    -fx-background-insets: 0, 0 1 1 1 ;
+}
+.game-grid-cell.first-row.first-column {
+    -fx-background-insets: 0, 1 ;
+}
+
+/** org 
+.game-grid {
+    -fx-background-color: lightblue;
+    -fx-padding: 5;
+}
+.game-grid-cell {
+    -fx-background-color: #ccc, white ;
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+.game-grid-cell.first-row {
+    -fx-background-insets: 0, 1 1 1 0 ;
+}
+.game-grid-cell.first-column {
+    -fx-background-insets: 0, 0 1 1 1 ;
+}
+.game-grid-cell.first-row.first-column {
+    -fx-background-insets: 0, 1 ;
+}
+ */
