@@ -101,7 +101,7 @@ public class LottoWinnerApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Generate Winning Numbers - V1.1");
+        primaryStage.setTitle("Generate Winning Numbers - V1.1.1");
 
         vBox = new VBox();
         vBox.setPadding(new Insets(5));
