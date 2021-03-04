@@ -346,7 +346,8 @@ public class LottoWinnerApp extends Application {
                     }
                 } else if (r == 1) {
                     if (r == 1 && c == 0) {
-                        pane.getChildren().add(maxLogo);
+//                        pane.getChildren().add(maxLogo);
+                        pane.getChildren().add(new Text("Max"));
                     } else if (r == 1 && c == 1) {
                         pane.getChildren().add(mTfList.get(0));
                     } else if (r == 1 && c == 2) {
@@ -370,7 +371,8 @@ public class LottoWinnerApp extends Application {
                 } else if (r == 2) {
                     // add 649 label
                     if (r == 2 && c == 0) {
-                        pane.getChildren().add(sixLogo);
+//                        pane.getChildren().add(sixLogo);
+                        pane.getChildren().add(new Text("649"));
                     } else if (r == 2 && c == 1) {
                         pane.getChildren().add(sTfList.get(0));
                     } else if (r == 2 && c == 2) {
